@@ -164,6 +164,13 @@ sección "Acerca", unos hacia la izquierda, otros a la derecha y el resto al cen
 }
 
 /* Testimonials */
+.hero-image-testimonials {
+  background-image: url("/img/hero-image-customers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
 .fotoAvatar {
   border-radius: 50%;
   width: 150px;
@@ -246,12 +253,12 @@ sección "Acerca", unos hacia la izquierda, otros a la derecha y el resto al cen
 /*  HeroImage */
 /*  --------- */
 
-.hero-image {
-  background-image: var(--hero-image);
+.hero-image-home {
+  background-image: url("/img/hero-image-home-v1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: var(--hero-attachment);
+  background-attachment: fixed;
 }
 
 .hero-image-opacity {
